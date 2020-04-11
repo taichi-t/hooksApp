@@ -7,6 +7,7 @@ export default function NewSongForm({ addSong }) {
     addSong(title);
     setTitle("");
   };
+
   return (
     <form onSubmit={handleSubmit}>
       <label>Song name:</label>
